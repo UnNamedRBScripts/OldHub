@@ -1,0 +1,232 @@
+--StarProject is your daddy
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Video/main/play"))() --playes the loading video
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "StarProject",
+    LoadingTitle = "StarProject",
+    LoadingSubtitle = "by Project and Star",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, -- Create a custom folder for your hub/game
+       FileName = "StarProject Configs"
+    },
+    Discord = {
+       Enabled = true,
+       Invite = "PwrSGtuEnc", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = false, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Untitled",
+       Subtitle = "Key System",
+       Note = "No method of obtaining the key is provided",
+       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    }
+ })
+ local Tab = Window:CreateTab("ChatBypass", 13851095509) -- Title, Image
+ local Section = Tab:CreateSection("ChatBypass")
+ local Button = Tab:CreateButton({
+    Name = "Advanced Chat Bypass (cant say f or n word)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/chat-bypassv2/main/the%20bypass"))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Basic Chat Bypass (works)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/SimpleBypass/main/yea"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Report Protection",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Report-Protection/main/ProtectUrSkittles"))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Chat Refresher",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/chat-refresh-gui/main/yes"))()
+    end,
+ })
+ local Tab = Window:CreateTab("Dahood", 13851095509)
+ local Button = Tab:CreateButton({
+   Name = "Dahood SwagMode (good target)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Dahood TBO (troll)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript"))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Dahood Vortex(fly+speed)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex"))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Dahood Azure(aimbot)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+   end,
+ })
+ local Section = Tab:CreateSection("Custom Aimbot")
+ local Button = Tab:CreateButton({
+   Name = "100 Ping",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/7hbl/lqmc-da-hood/main/lqmc%20da%20hood"))()
+   end,
+ })
+ local Tab = Window:CreateTab("Games", 13851095509)
+ local Button = Tab:CreateButton({
+   Name = "BedWars",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Murders Vs Sherifs Duels (enter when changing values)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/MVSD-Main/main/yup"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Strongest Battlegrounds",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Stongest/main/Battlesgrounds"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Fling Things And People",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/fgdergewrgegr/SVH/main/VHSV4"))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Flex Your Fps",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Q0BhVUHx"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Ragdoll Engine",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Ninja Legends",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Ninja-Legends/main/NL"))()
+   end,
+ })
+ local Tab = Window:CreateTab("FE", 13851095509)
+ local Button = Tab:CreateButton({
+   Name = "Roll (r15 press R)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/UnNamedRBScripts/Fe-Roll/main/Roll'))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Sad Ghost (r6)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+       loadstring(game:HttpGet("https://pastebin.com/raw/hgPJbwF0"))()
+    end,
+ })
+ local Tab = Window:CreateTab("Universal", 13851095509)
+ local Button = Tab:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Ocra Gui (press k)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Hitbox Extender (not all games)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/MVSD-Hitbox-extender/main/yessir"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Esp",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/ESP-Script/main/ESP.lua"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "TouchFling",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt"))()
+   end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "SolaraHub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://pastebin.com/raw/8zfmRFrr"))()
+  end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Sword Fight Bot (press x)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Sword-Fight-Bot/main/Sword%20Fight%20Bot.txt"))()
+  end,
+ })
+ local Button = Tab:CreateButton({
+   Name = "Lost Land",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Dahood-LostLand/main/Scary"))()
+   end,
+ })
+ local Tab = Window:CreateTab("Dangerous", 13851095509)
+ local Button = Tab:CreateButton({
+    Name = "Crash Server (works)",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()  
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Ban-Someone-troll-/main/HAHAH"))()
+    end,
+ })
+ local Button = Tab:CreateButton({
+    Name = "Kick Gun (works)",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))()  
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Ban-Someone-troll-/main/HAHAH"))()
+    end,
+ })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Link-Discord-On-Boot/main/niggamelon"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/FPS-Viewer/main/FPS"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/LinkDicordButton/main/yey"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Ban-List/main/Yes"))()
