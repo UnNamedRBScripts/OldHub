@@ -148,7 +148,7 @@ local Window = Rayfield:CreateWindow({
  })
  local Tab = Window:CreateTab("FE", 13851095509)
  local Button = Tab:CreateButton({
-   Name = "Roll (r15 press R)",
+   Name = "Roll (r15 press X)",
    Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/UnNamedRBScripts/Play-Button-Sound/main/play"))() 
        loadstring(game:HttpGet('https://raw.githubusercontent.com/UnNamedRBScripts/Fe-Roll/main/Roll'))()
